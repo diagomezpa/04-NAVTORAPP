@@ -1,7 +1,11 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 
 export const HomeScreen = () => {
-  return <View>HomeScreen</View>;
+  return (
+    <View>
+      <Text>Hola</Text>
+    </View>
+  );
 };
