@@ -1,6 +1,10 @@
 /* eslint-disable prettier/prettier */
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 
 export const SettingsScreen = () => {
-  return <View>SettingsScreen</View>;
+  return (
+    <View>
+      <Text>SettingsScreen</Text>
+    </View>
+  );
 };
