@@ -1,6 +1,10 @@
 /* eslint-disable prettier/prettier */
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 
 export const ProductScreen = () => {
-  return <View>ProductScreen</View>;
+  return (
+    <View>
+      <Text>ProductScreen</Text>
+    </View>
+  );
 };

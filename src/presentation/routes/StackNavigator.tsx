@@ -3,6 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {HomeScreen} from '../screens/home/HomeScreen';
 import {ProductsScreen} from '../screens/products/ProductsScreen';
 import {SettingsScreen} from '../settings/SettingsScreen';
+import {ProductScreen} from '../screens/products/ProdutScreen';
 
 const Stack = createStackNavigator();
 
@@ -12,12 +13,13 @@ export const StackNavigator = () => {
       screenOptions={{
         headerShown: true,
         headerStyle: {
-          elevation: 50,
+          elevation: 0,
           shadowColor: 'red',
         },
       }}>
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Products" component={ProductsScreen} />
+      <Stack.Screen name="Product" component={ProductScreen} />
       <Stack.Screen name="Settings" component={SettingsScreen} />
     </Stack.Navigator>
   );
